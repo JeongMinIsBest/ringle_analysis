@@ -41,10 +41,13 @@ ringle_analysis/
 
 ## 💻 설치 및 실행 방법
 1.  Python 환경 준비 (Python 3.10 권장)
+  
 2.  필수 라이브러리 설치
     ```
     pip install pandas matplotlib scikit-learn wordcloud google-play-scraper requests beautifulsoup4 tqdm lxml
     ```
+  
 3.  네이버 블로그 크롤러 실행 시, `ringle_naver_blog_crawler.py` 상단의 `NAVER_CLIENT_ID`와 `NAVER_CLIENT_SECRET`에 본인의 네이버 API ID/Secret을 입력해야 합니다.
+  
 4.  각 폴더의 `.ipynb` 파일을 주피터 노트북 환경에서 순차적으로 실행합니다.
 <br/>
